@@ -32,8 +32,8 @@
     // Map through an array of arrays of objects
   // Example: Extract names from the data array
   // Desired outcome: ['John', 'Jane', 'Bob']
-    const names = data.flatMap(group => group.map(person => person.name));
-    console.log(names); // Output: [ 'John', 'Jane', 'Bob' ]
+    const names1 = data.flatMap(group => group.map(person => person.name));
+    console.log(names1); // Output: [ 'John', 'Jane', 'Bob' ]
     // Map through an array of arrays of objects
     // Example: Extract names from the data array
     // Desired outcome: ['John', 'Jane', 'Bob']
